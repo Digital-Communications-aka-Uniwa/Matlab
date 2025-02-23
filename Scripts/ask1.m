@@ -1,0 +1,10 @@
+f0 = 5;
+fs = 1000;
+A = 5;
+ph = pi;
+T1 = 2;
+[x, t] = mine_sin(f0, fs, A, ph, T1);
+plot(t, x);
+xlabel('Time (sec)');
+ylabel('Amplitude (Volt)');
+title('x(t) = 5*sin(2*pi*5*t+π)');

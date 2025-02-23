@@ -1,0 +1,12 @@
+f0 = 5;
+fs = 1000;
+A = 5;
+ph = pi;
+T1 = 2;
+[x, t] = mine_sin(f0, fs, A, ph, T1);
+T = 1/f0;
+[ph, f] = phase_sin(x, T);
+plot(f, abs(ph));
+xlabel('Frequency Domain (Hz)');
+ylabel('Amplitude (Volt)');
+title('Amplitude Spectrum of x(t) = 5*sin(2*pi*5*t+π)');

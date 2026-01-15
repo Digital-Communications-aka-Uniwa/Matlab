@@ -112,12 +112,15 @@ The objective of this exercise is to implement a custom MATLAB function named `m
 
 **Key Logic**
 - The sampling period is calculated as:
+
   $$
   T_s = \frac{1}{f_s}
   $$
+
 - A time axis is created from $$ 0 $$ to $$ T_1 - T_s $$
 
 **Signal Equation**
+
 $$
 x(t) = A \cdot \sin(2\pi f_0 t + \varphi)
 $$
@@ -170,9 +173,6 @@ This project provides a strong foundation in **signal generation, spectral analy
 
 This repository contains a **Digital Communications** laboratory project implemented in **MATLAB**, focusing on **time-domain signal generation** and **frequency-domain analysis (FFT)**.  
 It is designed for **academic use** within Digital Communications and Signal Processing courses.
-
-Repository URL:  
-https://github.com/Digital-Communications-aka-Uniwa/Matlab.git
 
 ---
 

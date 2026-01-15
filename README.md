@@ -104,11 +104,35 @@ This project, completed using **MATLAB 2023**, focuses on fundamental concepts o
 The objective of this exercise is to implement a custom MATLAB function named `mine_sin` for generating a sinusoidal signal based on user-defined parameters.
 
 **Inputs**
-- Frequency \(f_0\)
-- Sampling frequency \(f_s\)
-- Amplitude \(A\)
-- Phase \(\varphi\)
-- Signal duration \(T_1\)
+- Frequency 
+
+$$ 
+f_0 
+$$
+
+- Sampling frequency 
+
+$$ 
+f_s 
+$$
+
+- Amplitude 
+
+$$ 
+A 
+$$
+
+- Phase 
+
+$$ 
+\varphi 
+$$
+
+- Signal duration 
+
+$$ 
+T_1 
+$$
 
 **Key Logic**
 - The sampling period is calculated as:
@@ -117,7 +141,17 @@ The objective of this exercise is to implement a custom MATLAB function named `m
   T_s = \frac{1}{f_s}
   $$
 
-- A time axis is created from $$ 0 $$ to $$ T_1 - T_s $$
+- A time axis is created from 
+
+$$ 
+0 
+$$ 
+
+to 
+
+$$ 
+T_1 - T_s 
+$$
 
 **Signal Equation**
 
@@ -144,6 +178,7 @@ This exercise introduces a second function, `phase_sin`, used to compute and vis
 **Bandwidth Calculation**
 - The bandwidth is determined using the sampling interval
 - The time resolution $$ dt $$ is defined as:
+  
   $$
   dt = \frac{1}{100 \cdot f_0}
   $$

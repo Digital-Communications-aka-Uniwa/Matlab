@@ -11,11 +11,11 @@
 ---
 
 <p align="center">
-  <strong>Digital Circuit Design</strong>
+  <strong>Digital Communications</strong>
 </p>
 
 <h1 align="center">
-  Simple Circle of a MIPS Processor
+  Digital Communications at Matlab
 </h1>
 
 <p align="center">

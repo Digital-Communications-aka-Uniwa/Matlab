@@ -104,11 +104,11 @@ This project, completed using **MATLAB 2023**, focuses on fundamental concepts o
 The objective of this exercise is to implement a custom MATLAB function named `mine_sin` for generating a sinusoidal signal based on user-defined parameters.
 
 **Inputs**
-- Frequency $$ f_0 $$
-- Sampling frequency $$ f_s $$
-- Amplitude $$ A $$
-- Phase $$ \varphi $$
-- Signal duration $$ T_1 $$
+- Frequency \(f_0\)
+- Sampling frequency \(f_s\)
+- Amplitude \(A\)
+- Phase \(\varphi\)
+- Signal duration \(T_1\)
 
 **Key Logic**
 - The sampling period is calculated as:

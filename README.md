@@ -173,15 +173,25 @@ This exercise introduces a second function, `phase_sin`, used to compute and vis
 
 **Signal Processing Techniques**
 - `fftshift()` is applied to center the spectrum around 0 Hz
-- Amplitude normalization is performed by dividing by the signal length $$ N $$
+- Amplitude normalization is performed by dividing by the signal length 
+
+$$ 
+N 
+$$
 
 **Bandwidth Calculation**
 - The bandwidth is determined using the sampling interval
-- The time resolution $$ dt $$ is defined as:
+- The time resolution 
+
+$$ 
+dt 
+$$ 
+
+is defined as:
   
-  $$
-  dt = \frac{1}{100 \cdot f_0}
-  $$
+$$
+dt = \frac{1}{100 \cdot f_0}
+$$
 
 **Visualization**
 - Frequency-domain plot displaying **Frequency (Hz)** versus **Amplitude (Volts)**

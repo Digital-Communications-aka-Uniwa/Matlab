@@ -29,7 +29,14 @@
 </p>
 
 <p align="center">
-  Supervisor: Emmanouel T. Michailidis, Senior Researcher<br>
+  Supervisor: Christina Georgoulaki, Laboratory Teaching Staff
+</p>
+<p align="center">
+  <a href="https://ice.uniwa.gr/en/emd_person/kristina-georgoulaki/" target="_blank">UNIWA Profile</a>
+</p>
+
+<p align="center">
+  Co-supervisor: Emmanouel T. Michailidis, Senior Researcher<br>
 </p>
 
 <p align="center">
